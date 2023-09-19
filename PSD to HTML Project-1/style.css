@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-1{
+    background-color: #23232e;
+    color: white;
+    text-align: center;
+    padding: 0 20%;
+
+}
+.head img{
+    padding: 60px;
+    width: 10%;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20px;
+}
+.head .circle{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.bg-2{
+    background-image: url('images/bg-1.png');
+    color: black;
+    text-align: center;
+    padding: 0 20%;
+
+}
+
+
+/* what i do styling */
+.what-i-do .col{
+    height: 150px;
+    width: 29.33%;
+    margin: 2%;
+    float: left;
+    text-align: left;
+}
+.what-i-do .col p{
+    text-align: justify;
+}
+.what-i-do p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
