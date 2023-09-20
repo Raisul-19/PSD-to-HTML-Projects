@@ -1,54 +1,190 @@
 *{
     margin: 0;
     padding: 0;
-}
-.bg-1{
-    background-color: #23232e;
-    color: white;
-    text-align: center;
-    padding: 0 20%;
-
-}
-.head img{
-    padding: 60px;
-    width: 10%;
+    box-sizing: border-box;
 }
 h2{
     text-transform: uppercase;
     font-size: 40px;
-    padding: 20px;
+    margin: 30px 0;
 }
-.head .circle{
-    height: 30px;
-    width: 30px;
-    border: 1px solid white;
-    border-radius: 100%;
-    margin: 30px;
-    margin-left: auto;
-    margin-right: auto;
-
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #7b77c9;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 20px;
+}
+.bg-1{
+    padding: 30px 20%;
+    text-align: center;
+    color: white;
+    background-color: #23232e;
+    overflow: hidden;
 }
 .bg-2{
-    background-image: url('images/bg-1.png');
-    color: black;
+    padding: 30px 20%;
     text-align: center;
-    padding: 0 20%;
+    color: #000000;
+    background-image: url('images/bg-1.png');
+    overflow: hidden;
+}
 
+/* this is header area */
+.header img{
+    width: 11%;
+    padding: 20px;
+}
+.header h2{
+    padding-top: 40px;
+}
+.header p{
+    font-size: 11px;
+    margin-bottom: 90px;
+}
+.header a{
+    border: 1px solid white;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 100%;
 }
 
 
-/* what i do styling */
+/* what i do area */
+
+.what-i-do .text{
+    font-size: 19px;
+    padding: 15px 50px;
+    opacity: 0.8;
+}
 .what-i-do .col{
-    height: 150px;
     width: 29.33%;
     margin: 2%;
     float: left;
     text-align: left;
 }
-.what-i-do .col p{
-    text-align: justify;
+.what-i-do .col h4{
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 16px;
 }
-.what-i-do p{
-    margin-top: 30px;
+.what-i-do .col p{
+    font-size: 12px;
+    text-align: justify;
+    opacity: 0.8;
+}
+
+
+/* this is my work styling */
+.my-work .menu ul{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
 }
+.my-work .menu ul li{
+    float: left;
+    padding: 5px 20px;
+    text-align: center;
+}
+.my-work .menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    text-transform: capitalize;
+}
+.my-work .menu ul li a:hover,
+.my-work .menu ul li .active{
+    border-bottom: 2px solid #7b77c9;
+}
+
+.my-work .work-list{
+    width: 29.33%;
+    margin: 2%;
+    float: left;
+    text-align: center;
+}
+.my-work .work-list img{
+    width: 100%;
+}
+.my-work .work-list h4{
+    padding: 16px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.my-work .work-list p{
+    padding: 8px 0;
+    text-align: justify;
+    opacity: 0.8;
+}
+
+
+
+/* this is photography styling */
+.photography .photos{
+    width: 29.33%;
+    margin: 2%;
+    float: left;
+    text-align: center;
+}
+.photography .photos img{
+    width: 100%;
+}
+
+/* this is subscription styling */
+.subscription a{
+    font-size: 52px;
+    text-decoration: none;
+    color: white;
+
+}
+.subscription{
+    padding: 100px 0;
+}
+.subscription p{
+    margin: 20px 0;
+    opacity: 0.8;
+}
+.subscription input{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 16px;
+}
+.subscription button{
+    border-radius: 0 10px 10px 0;
+    margin-left: -4px;
+}
+
+
+/* this is footer area styling */
+.footer{
+    padding: 50px;
+}
+.footer ul{
+    list-style-type: none;
+    display: inline-block;
+    margin: 50px auto;
+
+}
+.footer ul li{
+    float: left;
+    padding: 8px 16px;
+}
+.footer ul li a{
+    text-decoration: none;
+    font-size: 24px;
+}
+.footer p{
+    opacity: 0.8;
+    padding: 5px;
+}
+
+
+
+/* media queary */
+
