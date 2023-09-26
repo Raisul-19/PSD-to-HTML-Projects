@@ -1,0 +1,352 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Portfolio Personal Website
+	Template URL: http://www.abm.com
+	Description: Personal Website
+	Author: Md Raisul Islam
+	Author URL: http://www.ab-majid.info
+	License: GNU General Public 
+	Version: 2020.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p{
+	color: #848789;
+	line-height: 30px;
+}
+
+/************ Header Area ************/
+.myNav{
+	background-color: rgba(0, 0, 0, 0.3);
+
+}
+.myNav a:hover{
+	border-bottom: 2px solid #ff2f00;
+
+}
+.span{
+	color:#ff2f00;
+}
+.banner{
+	background-image: url('images/head-banner.png');
+	height: 90vh;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.mybtn{
+	background-color: #ff2f00;
+	color: white;
+	text-transform: capitalize;
+}
+
+/*******  about Area  **********/
+.head{
+	position: relative;
+}
+.head h3{
+	font-weight: bold;
+}
+.head h3::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	background-color: #ff2f00;
+	position: absolute;
+	left: 49.5%;
+	bottom: -6px;
+}
+.head .hr{
+	width: 12%;
+	border: none;
+	height: 3px;
+	background-color: #ff2f00;
+	margin: auto;
+
+}
+.about .about-pic{
+	position: relative;
+}
+.about .about-pic .social{
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: 0;
+	bottom: 00;
+	right: 0;
+}
+.about .about-pic .social ul li a{
+	padding: 4px 7px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 50%;
+	color: white;
+}
+.about .about-pic .social ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+
+/*******  what to know  **********/
+
+.what-to-know{
+	height: 50vh;
+	width: 100%;
+	background-image: url('images/bg-1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	position: relative;
+	z-index: 1;
+}
+.what-to-know a{
+	padding: 8px 12px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.what-to-know::after{
+	content: "";
+	clear: both;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+
+/*******  our service  **********/
+.service .icon{
+	font-size: 
+	42px;
+	color: #ff2f00;
+}
+.service p{
+	text-align: justify;
+}
+
+
+/* our skill */
+
+.progress-bar{
+	border-radius: 5px;
+}
+
+
+/* client area */
+
+.client{
+	height: 30vh;
+	width: 100%;
+	background-image: url('images/bg-2.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+
+}
+
+.hand-shake{
+	height: 60px;
+	width: 60px;
+	margin: auto;
+	font-size: 32px;
+	border: 2px solid  white;
+	border-radius: 50%;
+}
+.client::after{
+	content: "";
+	clear: both;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+
+/*******  our portfolio  **********/
+.portfolio-image{
+	position: relative;
+}
+.portfolio-image .layer{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 77, 0, 0.4);
+	color: white;
+	display: none;
+}
+.portfolio-image:hover .layer{
+	display: flex;
+}
+
+
+/* our team area */
+
+.team{
+	position: relative;
+}
+.team img{
+	border-bottom: 8px solid #ff2f00;
+}
+.team:hover .social{
+	display: block;
+}
+.team .social{
+	background-color: rgba(255, 77, 0, 0.4);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+.team .social .social-icon{
+
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #ff2f00;
+}
+.team .social .social-icon ul li a{
+	padding: 6px 9px;
+	background-color: rgba(179, 55, 2, 0.541);
+	border-radius: 500%;
+	color: white;
+	text-decoration: none;
+}
+.team .social .social-icon ul li a:hover{
+	background-color: white;
+	color: #ff2f00;
+}
+
+
+/* short profile item */
+
+.profile{
+	background-image: url('images/bg-3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+}
+.profile::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: -1;
+}
+
+
+/* latest blog area */
+
+.blog p{
+	text-align: justify;
+}
+.blog-item{
+	box-shadow: 1px 1px 1px 1px #88888825;
+}
+
+
+/* contact page styling */
+
+.contact{
+	background-image: url('images/bg-4.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	/* height: 90vh; */
+	z-index: 1;
+}
+.contact::after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+.contact .input input{
+	width: 45%;
+}
+.contact .input input,
+.contact textarea{
+	margin: auto;
+	outline: none;
+	border: 1px solid white;
+	color: white;
+	border-radius: 10px;
+	background-color: transparent;
+	
+}
+.contact input::placeholder,
+.contact textarea::placeholder{
+	color: white !important;
+}
+.contact textarea{
+	display: block;
+	width: 95%;
+	margin-left: auto;
+
+}
+.contact button{
+	margin-left: 2.5%;
+}
+
+/* footer area styling */
+.footer p{
+	text-align: right;
+}
